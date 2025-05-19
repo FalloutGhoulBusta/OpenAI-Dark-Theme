@@ -1,74 +1,66 @@
 {
-    "variables": {
-"background": "#2f2f2f",
-"foreground": "#ffffff",
-        "accent": "#007AFF"
+  "name": "Acid",
+  "variables": {
+    "background": "#0D1117",
+    "foreground": "#C9D1D9",
+    "accent": "#58A6FF",
+    "comment": "#8B949E",
+    "keyword": "#FF7B72",
+    "string": "#A5D6FF",
+    "function": "#D2A8FF",
+    "number": "#F2CC60",
+    "type": "#7EE787",
+    "invalid": "#F85149"
+  },
+  "globals": {
+    "background": "var(background)",
+    "foreground": "var(foreground)",
+    "caret": "var(accent)",
+    "selection": "#264F78",
+    "selection_border": "var(accent)",
+    "line_highlight": "#161B22",
+    "guide": "#2E333A",
+    "stack_guide": "#444C56",
+    "active_guide": "#58A6FF"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(comment)",
+      "font_style": "italic"
     },
-    "globals": {
-        "background": "var(background)",
-        "foreground": "var(foreground)",
-"caret": "#ffffff",
-"selection": "#555555",
-"line_highlight": "#444444",
-"gutter": "#333333",
-"gutter_foreground": "#cccccc"
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "foreground": "var(keyword)",
+      "font_style": "bold"
     },
-    "rules": [
-        {
-            "scope": "comment",
-            "foreground": "#6a737d",
-            "font_style": "italic"
-        },
-        {
-            "scope": "keyword",
-            "foreground": "#d73a49",
-            "font_style": "bold"
-        },
-        {
-            "scope": "string",
-            "foreground": "#032f62"
-        },
-        {
-            "scope": "variable",
-            "foreground": "#005cc5"
-        },
-        {
-            "scope": "constant.numeric",
-            "foreground": "#005cc5"
-        },
-        {
-            "scope": "entity.name.function",
-            "foreground": "#6f42c1"
-        },
-        {
-            "scope": "markup.heading",
-            "foreground": "#005cc5",
-            "font_style": "bold"
-        },
-        {
-            "scope": "markup.bold",
-            "font_style": "bold"
-        },
-        {
-            "scope": "markup.italic",
-            "font_style": "italic"
-        },
-        {
-            "scope": "markup.underline",
-            "font_style": "underline"
-        },
-        {
-            "scope": "markup.quote",
-            "foreground": "#6a737d",
-            "font_style": "italic"
-        },
-        {
-            "scope": "markup.list",
-            "foreground": "#d73a49"
-        },
-        {
-            "scope": "markup.raw",
-            "foreground": "#032f62"
-        }
-    ]
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(string)"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "var(number)"
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "foreground": "var(function)"
+    },
+    {
+      "name": "Type name",
+      "scope": "entity.name.type",
+      "foreground": "var(type)"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "#ffffff",
+      "background": "var(invalid)"
+    }
+  ]
 }

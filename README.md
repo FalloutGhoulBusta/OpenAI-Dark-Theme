@@ -24,11 +24,11 @@ Here's a visual representation of the theme's most commonly seen colors:
 ![Inline Code](https://img.shields.io/badge/inline%20code-032f62?color=032f62&style=flat-square)
 
 ### UI Elements
-![Selection](https://img.shields.io/badge/selection-444444?color=444444&style=flat-square)
+![Selection](https://img.shields.io/badge/selection-555555?color=555555&style=flat-square)
 ![Caret](https://img.shields.io/badge/caret-ffffff?color=ffffff&style=flat-square)
-![Line Highlight](https://img.shields.io/badge/line%20highlight-333333?color=333333&style=flat-square)
-![Gutter](https://img.shields.io/badge/gutter-222222?color=222222&style=flat-square)
-![Gutter Foreground](https://img.shields.io/badge/gutter%20foreground-999999?color=999999&style=flat-square)
+![Line Highlight](https://img.shields.io/badge/line%20highlight-444444?color=444444&style=flat-square)
+![Gutter](https://img.shields.io/badge/gutter-333333?color=333333&style=flat-square)
+![Gutter Foreground](https://img.shields.io/badge/gutter%20foreground-cccccc?color=cccccc&style=flat-square)
 
 ## Installation
 
